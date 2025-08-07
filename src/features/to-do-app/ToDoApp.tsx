@@ -45,7 +45,7 @@ export default function ToDoApp() {
               <div>
                 <div className='dropdown'>
                   <a
-                    className='btn'
+                    className='btn btn-outline-secondary'
                     type='button'
                     data-bs-toggle='dropdown'
                     aria-expanded='false'
