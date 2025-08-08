@@ -295,6 +295,114 @@ $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
+//---------------------------------new primary start
+
+$primary-10: #E8F1F6;
+$primary-40: #B9D4E3;
+$primary-60: #8BB7D1;
+$primary-80: #5C9ABE;
+$primary-100: #2D7DAB;
+$primary-120: #166FA2;
+
+//---------------------------------new primary end
+
+//---------------------------------new success start
+
+$success-10: #F0FCD1;
+$success-20: #DDFAA5;
+$success-100: #7CD31F;
+$success-120: #48970F;
+
+//---------------------------------new success end
+
+//---------------------------------info start
+
+$info-10: #D4F9FE;
+$info-20: #A9EFFE;
+$info-100: #2AAFFC;
+$info-120: #1566B5;
+
+//---------------------------------info end
+
+//---------------------------------accent start
+$accent-10: #FFE0D7;
+$accent-20: #FFBBB0;
+$accent-100: #FF3A55;
+$accent-120: #B71D4F;
+
+//---------------------------------accent end
+
+//---------------------------------neutral start
+
+$neutral-10: #F9F9F9;
+$neutral-40: #ECECEC;
+$neutral-60: #909090;
+$neutral-80: #4B4B4B;
+
+//---------------------------------neutral end
+
+
+
+
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+
+
+
+  // === new primary start ===
+  'primary-10': $primary-10,
+  'primary-40': $primary-40,
+  'primary-60': $primary-60,
+  'primary-80': $primary-80,
+  'primary-100': $primary-100,
+  'primary-120': $primary-120,
+
+  // === new primary end ===
+
+
+
+  //---------------------------------new success start
+
+  'success-10': $success-10,
+  'success-20': $success-20,
+  'success-100': $success-100,
+  'success-120': $success-120,
+
+  //---------------------------------new success end
+
+  //---------------------------------new info start
+  "info-10":$info-10,
+  "info-20":$info-20,
+  "info-100":$info-100,
+  "info-120":$info-120,
+  //---------------------------------new info end
+
+  //---------------------------------new accent start
+
+  'accent-10':$accent-10 ,
+  'accent-20':$accent-20 ,
+  'accent-100':$accent-100,
+  'accent-120':$accent-120 ,
+  //---------------------------------new accent end
+
+
+  //---------------------------------new neutral start
+  'neutral-10': $neutral-10,
+  'neutral-40': $neutral-40,
+  'neutral-60': $neutral-60,
+  'neutral-80': $neutral-80,
+  ) !default;
+
+//---------------------------------new neutral start
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
