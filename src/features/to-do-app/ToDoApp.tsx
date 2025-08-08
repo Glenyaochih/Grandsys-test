@@ -197,6 +197,7 @@ export default function ToDoApp() {
                             <input
                               className='form-check-input'
                               type='checkbox'
+                              checked={todo.isCompleted}
                               onChange={() => handleStatusSwitch(todo.id)}
                               aria-label='改變狀態'
                               aria-describedby='改變狀態'
